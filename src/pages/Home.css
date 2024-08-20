@@ -1,0 +1,185 @@
+.home-container {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+/* Styling for the intro section */.intro {
+  background: linear-gradient(to right, #08283a, #1c92d2); /* Gradient background */
+  padding: 4rem 2rem;
+  color: #fff; /* White text */
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-content {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.intro-text-container {
+  flex: 1;
+  text-align: left;
+}
+
+.intro-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+/* Animation for the intro text */
+.intro-text {
+  font-family: 'Montserrat', sans-serif;
+  margin: 1rem 0;
+  animation: fadeInUp 1s ease-in-out both;
+  padding: 25px 0;
+}
+
+/* Keyframe animation for fading in and moving up */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Different font sizes and styles for different text elements */
+.intro h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.intro h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #ffeb3b;
+}
+
+.intro p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+/* Styling for the intro image */
+.intro-image {
+  max-width: 400px;
+  border-radius: 10%;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  animation: fadeInZoom 1s ease-in-out both;
+}
+
+/* Keyframe animation for fading in and zooming */
+@keyframes fadeInZoom {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+  .intro {
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
+
+  .intro-text-container, .intro-image-container {
+    flex: none;
+    text-align: center;
+  }
+
+  .intro h1 {
+    font-size: 2.5rem;
+  }
+
+  .intro h2 {
+    font-size: 1.8rem;
+  }
+
+  .intro p {
+    font-size: 1rem;
+    margin: 0 auto;
+  }
+
+  .intro-image {
+    max-width: 350px;
+    margin-top: 2rem;
+  }
+}
+
+
+  
+  .skills {
+    margin: 2rem 0;
+  }
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .skill-item {
+    text-align: center;
+  }
+  
+  .skill-icon {
+    font-size: 3rem;
+    color: #61dafb; /* React color */
+    margin-bottom: 0.5rem;
+  }
+
+  .about{
+    color: #000;
+  }
+  
+  .about-content{
+    /* margin: 2rem 0; */
+    background: linear-gradient(to bottom, #3c92d2, #08283a); /* Gradient background */
+    color: #fff;
+    border-radius: 2.5%;
+    padding: 1rem 0;
+  }
+  
+  .projects {
+    margin: 2rem 0;
+    color:#000
+  }
+  
+  .project-gallery {
+    display: flex;
+    justify-content: center;
+    gap:2rem 2rem;
+    background: linear-gradient(to bottom, #3c92d2, #000000); /* Gradient background */
+    color: #fff;
+    border-radius: 2.5%;
+
+  }
+  
+  .project-gallery img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-gallery img:hover {
+    transform: scale(1.05);
+  }
+  

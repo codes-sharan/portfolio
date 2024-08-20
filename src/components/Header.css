@@ -1,0 +1,86 @@
+/* General styling for the header */
+.header {
+    /* background: #333; */
+    background: linear-gradient(to left, #1c92d2, #000000); /* Gradient background */
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Logo styling */
+  .logo {
+    color: #fff;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+  
+  /* Navigation links styling */
+  .nav-links {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .nav-links ul{
+    background-color: transparent;
+  }
+  
+  .nav-links ul li{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    transition: color 0.3s ease;
+    padding: 0.5rem 1rem;
+    border-radius: 5%;
+  }
+
+  
+  .nav-links ul li:hover {
+    background-color: #023956;
+    transform: scale(1.1);
+  }
+  
+  /* Social media icons styling */
+  .social-icons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .social-icon {
+    color: #fff;
+    font-size: 1.5rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #a7cfe4;
+    transform: scale(1.2);
+  }
+  
+  /* Media query for responsive design */
+  @media (max-width: 768px) {
+    .header-content {
+      flex-direction: column;
+    }
+  
+    .nav-links {
+      margin-bottom: 0;
+    }
+  }
+  
