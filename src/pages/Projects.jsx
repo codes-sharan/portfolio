@@ -2,52 +2,52 @@ import './Projects.css';
 
 const projects = [
   {
-    title: 'Project 1 (Loksewahub.com)',
+    title: 'Loksewahub.com',
     description: 'A dynamic web application built with React and Node.js.',
     technologies: ['React', 'Node.js', 'Express'],
-    image: 'src/assets/project1.png',
+    image: 'src/assets/loksewahub.png',
     link: 'https://www.loksewahub.com/'
   },
   {
-    title: 'Project 2 (CMS Project)',
+    title: 'CMS Project',
     description: 'A responsive CMS using Next.js and MongoDB.',
     technologies: ['Next.js', 'MongoDB', 'CSS'],
-    image: 'src/assets/project2.png',
+    image: 'src/assets/cms.png',
     link: 'https://github.com/shpanthi09/CMS-project'
   },
   // Add more projects as needed
 
   {
-    title: 'Project 3(Todo App)',
-    description: 'A responsive Todo using Next.js and MongoDB.',
-    technologies: ['Next.js', 'MongoDB', 'CSS'],
-    image: 'src/assets/project3.png',
+    title: 'Todo App',
+    description: 'A responsive Todo app using React.js',
+    technologies: ['React.js', 'CSS'],
+    image: 'src/assets/todo.png',
     link: 'https://github.com/shpanthi09/todo-app-react'
   },
   // Add more projects as needed
 
   {
-    title: 'Project 4 (Blog website)',
+    title: 'Blog Website',
     description: 'A responsive Blog website using Next.js and MongoDB.',
     technologies: ['Next.js', 'MongoDB', 'CSS'],
-    image: 'src/assets/project4.png',
+    image: 'src/assets/blog.png',
     link: 'https://github.com/shpanthi09/blog-website'
   },
 
   {
-    title: 'Project 5(The Himalayan Times)',
-    description: 'The Himalayan Times website clone using Next.js and MongoDB.',
-    technologies: ['Next.js', 'MongoDB', 'CSS'],
-    image: 'src/assets/project5.png',
+    title: 'The Himalayan Times(Clone)',
+    description: 'The Himalayan Times website clone using React.js',
+    technologies: ['React.js', 'CSS'],
+    image: 'src/assets/himalayantimes.png',
     link: 'https://github.com/shpanthi09/himalayan-times'
   },
   // Add more projects as needed
 
   {
-    title: 'Project 6 (Login Authorization)',
-    description: 'A responsive Blog website using Next.js and MongoDB.',
+    title: 'Login Authorization',
+    description: 'Login Authorization in Next.js web app with MongoDB.',
     technologies: ['Next.js', 'MongoDB', 'CSS'],
-    image: 'src/assets/project6.png',
+    image: 'src/assets/loginauthorization.png',
     link: 'https://github.com/shpanthi09/login-authorization-react'
   },
 

@@ -16,7 +16,7 @@ const Home = () => {
 <section className="intro">
   <div className="intro-content">
     <div className="intro-text-container">
-      <h1 className='intro-text'>Hi, I&apos;m Suyog Paudel</h1>
+      <h1 className='intro-text'>Hi, I&apos;m Sharan Panthi</h1>
       <h2 className="intro-text">A Passionate Web Developer</h2>
       <p className="intro-text">I create dynamic and responsive web applications using the latest technologies and best practices.</p>
     </div>
@@ -81,14 +81,21 @@ const Home = () => {
       </section>
 
       <section className="projects">
-        <h2>Featured Projects</h2>
-        <p>Check out some of my recent work:</p>
-        <div className="project-gallery">
-          <img src="src/assets/project1.png" alt="Project 1" />
-          <img src="src/assets/project2.png" alt="Project 2" />
-          <img src="src/assets/project3.png" alt="Project 3" />
-        </div>
-      </section>
+  <h2>Featured Projects</h2>
+  <p>Check out some of my recent work:</p>
+  <div className="project-gallery">
+    <a href="https://loksewahub.com" target="_blank" rel="noopener noreferrer">
+      <img src="src/assets/loksewahub.png" alt="loksewahub" />
+    </a>
+    <a href="https://todoapp.com" target="_blank" rel="noopener noreferrer">
+      <img src="src/assets/todo.png" alt="todo" />
+    </a>
+    <a href="https://blogsite.com" target="_blank" rel="noopener noreferrer">
+      <img src="src/assets/blog.png" alt="blog" />
+    </a>
+  </div>
+</section>
+
     </div>
   );
 };

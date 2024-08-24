@@ -7,7 +7,7 @@ function Footer() {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-logo">
-          <h2>Suyog Paudel</h2>
+          <h2>Sharan Panthi</h2>
         </div>
         <div className="footer-social">
           <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="footer-icon">
@@ -22,7 +22,7 @@ function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; 2024 Suyog Paudel. All Rights Reserved.</p>
+        <p>&copy; 2024 Sharan Panthi. All Rights Reserved.</p>
       </div>
     </footer>
   );
