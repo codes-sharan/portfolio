@@ -5,14 +5,14 @@ const projects = [
     title: 'Loksewahub.com',
     description: 'A dynamic web application built with React and Node.js.',
     technologies: ['React', 'Node.js', 'Express'],
-    image: 'src/assets/loksewahub.png',
+    image: '../loksewahub.png',
     link: 'https://www.loksewahub.com/'
   },
   {
     title: 'CMS Project',
     description: 'A responsive CMS using Next.js and MongoDB.',
     technologies: ['Next.js', 'MongoDB', 'CSS'],
-    image: 'src/assets/cms.png',
+    image: '../cms.png',
     link: 'https://github.com/shpanthi09/CMS-project'
   },
   // Add more projects as needed
@@ -21,7 +21,7 @@ const projects = [
     title: 'Todo App',
     description: 'A responsive Todo app using React.js',
     technologies: ['React.js', 'CSS'],
-    image: 'src/assets/todo.png',
+    image: '../todo.png',
     link: 'https://github.com/shpanthi09/todo-app-react'
   },
   // Add more projects as needed
@@ -30,7 +30,7 @@ const projects = [
     title: 'Blog Website',
     description: 'A responsive Blog website using Next.js and MongoDB.',
     technologies: ['Next.js', 'MongoDB', 'CSS'],
-    image: 'src/assets/blog.png',
+    image: '../blog.png',
     link: 'https://github.com/shpanthi09/blog-website'
   },
 
@@ -38,7 +38,7 @@ const projects = [
     title: 'The Himalayan Times(Clone)',
     description: 'The Himalayan Times website clone using React.js',
     technologies: ['React.js', 'CSS'],
-    image: 'src/assets/himalayantimes.png',
+    image: '../himalayantimes.png',
     link: 'https://github.com/shpanthi09/himalayan-times'
   },
   // Add more projects as needed
@@ -47,7 +47,7 @@ const projects = [
     title: 'Login Authorization',
     description: 'Login Authorization in Next.js web app with MongoDB.',
     technologies: ['Next.js', 'MongoDB', 'CSS'],
-    image: 'src/assets/loginauthorization.png',
+    image: '../loginauthorization.png',
     link: 'https://github.com/shpanthi09/login-authorization-react'
   },
 

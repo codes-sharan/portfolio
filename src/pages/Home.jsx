@@ -21,7 +21,7 @@ const Home = () => {
       <p className="intro-text">I create dynamic and responsive web applications using the latest technologies and best practices.</p>
     </div>
     <div className="intro-image-container">
-      <img className="intro-image" src="src/assets/shp.jpg" alt="Web Developer at work" />
+      <img className="intro-image" src="../shp.jpg" alt="Web Developer at work" />
     </div>
   </div>
 </section>
@@ -85,13 +85,13 @@ const Home = () => {
   <p>Check out some of my recent work:</p>
   <div className="project-gallery">
     <a href="https://loksewahub.com" target="_blank" rel="noopener noreferrer">
-      <img src="src/assets/loksewahub.png" alt="loksewahub" />
+      <img src="../loksewahub.png" alt="loksewahub" />
     </a>
     <a href="https://todoapp.com" target="_blank" rel="noopener noreferrer">
-      <img src="src/assets/todo.png" alt="todo" />
+      <img src="../todo.png" alt="todo" />
     </a>
     <a href="https://blogsite.com" target="_blank" rel="noopener noreferrer">
-      <img src="src/assets/blog.png" alt="blog" />
+      <img src="../blog.png" alt="blog" />
     </a>
   </div>
 </section>
