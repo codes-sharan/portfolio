@@ -19,17 +19,21 @@
   align-items: center;
   max-width: 1200px;
   width: 100%;
+  padding: 0.5rem; /* Reduced padding */
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
 }
 
 .intro-text-container {
   flex: 1;
   text-align: left;
+  padding: 0.5rem; /* Reduced padding */
 }
 
 .intro-image-container {
   flex: 1;
   display: flex;
   justify-content: center;
+  padding: 0.5rem; /* Reduced padding */
 }
 
 /* Animation for the intro text */
@@ -37,7 +41,7 @@
   font-family: 'Montserrat', sans-serif;
   margin: 1rem 0;
   animation: fadeInUp 1s ease-in-out both;
-  padding: 25px 0;
+  padding: 15px 0; /* Reduced padding */
 }
 
 /* Keyframe animation for fading in and moving up */
@@ -74,6 +78,7 @@
 /* Styling for the intro image */
 .intro-image {
   max-width: 450px;
+  width: 100%; /* Make sure the image scales with the container */
   border-radius: 10%;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
   animation: fadeInZoom 1s ease-in-out both;
@@ -93,14 +98,15 @@
 
 /* Media query for responsive design */
 @media (max-width: 768px) {
-  .intro {
+  .intro-content {
     flex-direction: column;
-    padding: 2rem 1rem;
+    padding: 1rem 0.5rem; /* Reduced padding */
   }
 
   .intro-text-container, .intro-image-container {
     flex: none;
     text-align: center;
+    padding: 0.5rem 0; /* Reduced padding */
   }
 
   .intro h1 {
@@ -118,10 +124,27 @@
 
   .intro-image {
     max-width: 350px;
-    margin-top: 2rem;
+    margin-top: 1.5rem; /* Reduced margin */
   }
 }
 
+@media (max-width: 480px) {
+  .intro h1 {
+    font-size: 2rem;
+  }
+
+  .intro h2 {
+    font-size: 1.5rem;
+  }
+
+  .intro p {
+    font-size: 0.9rem;
+  }
+
+  .intro-image {
+    max-width: 300px;
+  }
+}
 
   
   .skills {
