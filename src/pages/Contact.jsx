@@ -1,13 +1,20 @@
-
-import ContactForm from '../components/ContactForm';
+import ContactForm from "../components/ContactForm";
 
 function Contact() {
   return (
     <div>
-        <h3> Please fill out the form to get in touch and collaborate with me!</h3>
-      <ContactForm/>
+      <h3>
+        {" "}
+        <i>
+          {" "}
+          Please fill out the form (or email me at sharanpanthi@gmail.com) to
+          get in touch and collaborate with me!{" "}
+        </i>
+      </h3>
+      <ContactForm />
+      <br />
     </div>
-  )
+  );
 }
 
-export default Contact
+export default Contact;

@@ -1,6 +1,6 @@
-
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
-import './Footer.css';
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import "./Footer.css";
+import { FaX } from "react-icons/fa6";
 
 function Footer() {
   return (
@@ -10,14 +10,29 @@ function Footer() {
           <h2>Sharan Panthi</h2>
         </div>
         <div className="footer-social">
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="footer-icon">
+          <a
+            href="https://github.com/codes-sharan"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="footer-icon"
+          >
             <FaGithub />
           </a>
-          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="footer-icon">
+          <a
+            href="https://linkedin.com/in/sharan-panthi-94765382/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="footer-icon"
+          >
             <FaLinkedin />
           </a>
-          <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" className="footer-icon">
-            <FaTwitter />
+          <a
+            href="https://twitter.com/PanthiSharan"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="footer-icon"
+          >
+            <FaX />
           </a>
         </div>
       </div>
